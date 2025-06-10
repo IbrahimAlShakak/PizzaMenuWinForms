@@ -1,6 +1,6 @@
-# PizzaOrderWinForms
+# PizzaMenuWinForms
 
-![Make Your Pizza Screen](screenshots/pizza_menu.png)
+![App Screenshot]("C:\Users\ibrah\Programming\General\AbuHadhoud Course\Revision from 01-06-2025\myWindowsFormProject\Pizza_UI.png")
 
 A simple Windows Forms application in C# that lets users build and price their own pizza order. Select size, crust type, toppings, and whether you’ll dine in or take out – then see a live order summary and total price.
 
@@ -35,13 +35,13 @@ A simple Windows Forms application in C# that lets users build and price their o
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/YourUser/PizzaOrderWinForms.git
-   cd PizzaOrderWinForms
+   git clone https://github.com/IbrahimAlShakak/PizzaMenuWinForms.git
+   cd PizzaMenuWinForms
    ```
 
 2. **Open in Visual Studio**:
 
-   - Double‑click on `PizzaOrderWinForms.sln` or use **File → Open → Project/Solution**.
+   - Double‑click on `myWindowsFormProject.sln` or use **File → Open → Project/Solution**.
 
 3. **Restore NuGet Packages** (if prompted).
 
@@ -60,18 +60,20 @@ A simple Windows Forms application in C# that lets users build and price their o
 
 ## Project Structure
 
-```
-PizzaOrderWinForms/           # Solution root
-├── PizzaOrderWinForms.sln    # Visual Studio solution
-├── PizzaOrderWinForms/       # WinForms project folder
-│   ├── Program.cs            # Application entry point
-│   ├── mainForm.cs           # UI logic and event handlers
-│   ├── mainForm.Designer.cs  # Auto-generated layout code
-│   ├── Resources.Designer.cs # Image and string resources
-│   ├── Settings.Designer.cs  # User settings
-│   └── Properties/           # Assembly metadata
-└── screenshots/              # High‑resolution images for README
-    └── pizza_menu.png
+```plaintext
+PizzaMenuWinForms/           # Solution root
+├── .gitignore               # Git exclusions (bin/, obj/, .vs/)
+├── README.md                # Project documentation (this file)
+├── myWindowsFormProject.sln # Visual Studio solution
+├── myWindowsFormProject/    # WinForms project folder
+│   ├── Program.cs           # Application entry point
+│   ├── mainForm.cs          # UI logic and event handlers
+│   ├── mainForm.Designer.cs # Auto-generated layout code
+│   ├── Resources.Designer.cs# Image and string resources
+│   ├── Settings.Designer.cs # User settings
+│   └── Properties/          # Assembly metadata
+└── screenshots/             # Images for README
+    └── new_pizza_ui.png
 ```
 
 ## Customization & Extension
